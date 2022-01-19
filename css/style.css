@@ -1,0 +1,117 @@
+/* Selector universal */
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+/* Selectores de etiquetas */
+
+body {
+    background-color: aqua;
+    margin: 40px;
+    padding: 40px;
+    border:solid
+}
+
+table {
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    /* border-collapse: collapse; */
+}
+
+th, td {
+    padding: 15px;
+}
+
+img {
+    width:40%;
+    display: block;
+    margin: auto;
+}
+
+nav>ul>li {
+    display: inline;
+}
+
+nav>ul {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: chartreuse;
+}
+
+h2 {
+    border: 3px solid #000000e8;
+    text-align: center;
+}
+
+section {
+    padding-top:40px
+}
+
+footer {
+    text-align: center;
+}
+
+/* Selector por clases */
+
+.sinMovimiento{
+    position: sticky;
+    top: 0;
+    background-color: rgb(183, 127, 235);
+    border:1px solid black
+}
+
+.main-title {
+    border:3px dotted rgb(7,163,7);
+    text-align: center;
+    padding:0px 20px 0px 20px;
+}
+
+.specialClass{
+    color:red;
+    
+}
+
+.form-field {
+    width:100%;
+    border: 2px solid red;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+.form-field:focus {
+    background-color: lightblue;
+}
+
+.hidden p{
+    display:none;
+}
+
+.hidden:hover p{
+    display:block;
+}
+
+.button {
+    background-color: #008CBA;
+    color:white;
+    border:2px solid 008CBA;
+    padding: 16px 32px;
+}
+
+.button:hover {
+    background-color: rgb(231,102,102);
+    color:black;
+}
+
+/* Selector por id's */
+
+#concert figcaption{
+    text-align: center;
+    margin-top: 20px;
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi landing page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <a id="top"></a>
+    <header class="sinMovimiento">
+        <nav>
+            <ul>
+                <li><a href="#history">Historia</a></li>
+                <li><a href="#images">Imágenes</a></li>
+                <li><a href="#music">Discografía</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/Dance_pop">Tipo de música</a></li>
+                <li><a href="./about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="main-title">Spice Grils: El regreso</h1>
+        <section id="history">
+            <h2 class="specialClass">Historia</h2>
+            <article class="hidden">
+                <h3>Formación e inicios</h3>
+                <p><blockquote cite="https://es.wikipedia.org/wiki/Spice_Girls">
+                        <strong>Spice Girls</strong> es una agrupación inglesa de música pop fundada en 1994 y compuesta por las cantantes Geri Halliwell, Melanie C, Victoria Beckham, Melanie B y Emma Bunton. <q>Con más de 100 millones de discos certificados vendidos</q>,1​ son el grupo femenino más exitoso de la historia de la música y uno de los actos musicales más influyentes durante de la década de 1990, considerado como el grupo femenino más emblemático de la música, debido a su impacto, legado, records e impacto cultural; además de popularizar la expresión feminista Girl Power! (¡Chicas al poder!).<sup>2​3</sup>​</p><br>
+                        <p>Llevaron a cabo su carrera entre 1996 y 2001, 2007 y 2008, una aparición en 2012 durante la clausura de los Juegos Olímpicos de Londres 2012, y finalmente entre 2018 y 2019 con una nueva gira, <em>Spice World Tour 2019</em>, ya sin <abbr title="Victoria Beckham">VC</abbr>.
+                        <address>
+                            Written by John Doe.<br>
+                            Visit us at:<br>
+                            Example.com<br>
+                            Box 564, Disneyland<br>
+                            USA
+                        </address>
+
+                    </blockquote>
+                </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias tenetur esse, voluptates unde provident corporis voluptatem iste debitis! Quis eaque explicabo asperiores soluta accusamus ullam animi labore veniam harum ipsum.</p>
+            </article>
+        </section>
+        <hr>
+        <section id="images">
+            <h2>Imágenes</h2>
+            <figure id="concert">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Spice_Girls_tour_2019.jpg/375px-Spice_Girls_tour_2019.jpg" alt="Spice Girls">
+                <figcaption>Concierto en Londres cantando <cite>If you wanna be my lover</cite></figcaption>
+            </figure>
+        </section>
+        <!-- section>h2+figure -->
+        <section id="music">
+            <h2>Discografía</h2>
+            <ul>
+                <li>1996:<i><a href="https://es.wikipedia.org/wiki/Spice_(%C3%A1lbum)" target="_blank">Spice</a></i></li>
+                <li>1997: Spiceworld</li>
+                <li>2000: Forever</li>
+                <li>2007: Greatest Hits</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Formulario de contacto</h2>
+            <form action="#">
+                
+                <fieldset>
+                    <legend>Datos personales</legend>
+                    <label for="fname">Nombre:</label><br>
+                    <input type="text" id="fname" class="form-field"  name="fname" placeholder="Escribe tu nombre..."><br>
+
+                    <label for="lname">Apellidos:</label><br>
+                    <input type="text" id="lname" class="form-field" name="lname" placeholder="Escribe tus apellidos..."><br><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" class="form-field" name="email" placeholder="nombre@ejemplo.com" ><br><br>
+
+                    <label for="password">Contraseña:</label><br>
+                    <input type="password" id="password" name="password" placeholder="Mínimo 6 caracteres"><br><br>
+                </fieldset>
+
+                <p>Selecciona el género:</p>
+
+                <input type="radio" id="masc" name="fav_language" value="masc">
+                <label for="masc">Masculino</label><br>
+                
+                <input type="radio" id="fem" name="fav_language" value="fem">
+                <label for="fem">Femenino</label><br>
+                
+                <input type="radio" id=otrot" name="fav_language" value="otro">
+                <label for="otro">Otro</label><br>
+
+                <br>
+
+                <label for="cities">Ciudades:</label><br>
+                    <select id="cities" name="cities">
+                    <option value="mdr">Madrid</option>
+                    <option value="val">Valencia</option>
+                    <option value="bar">Barcelona</option>
+                    <option value="sev">Sevilla</option>
+                </select>
+
+                <br><br>
+
+                <table>
+                    <h2>Integrantes del grupo</h2>
+                    <tr>
+                      <th>Nombre</th>
+                      <th>Fecha de nacimiento</th>
+                      <th>Nacionalidad</th>
+                    </tr>
+                    <tr>
+                      <td>Geri Halliwell</td>
+                      <td>1970</td>
+                      <td>Britanica</td>
+                    </tr>
+                    <tr>
+                      <td>Melanie C</td>
+                      <td>1973</td>
+                      <td>Britanica</td>
+                    </tr>
+                    <tr>    
+                        <td>Victoria Beckham</td>
+                        <td>1975</td>
+                        <td>Britanica</td>
+                      </tr>
+                  </table>
+                
+                <br><br>
+
+                <label for="message">Observaciones:</label>
+                <br>
+                <textarea name="message" rows="10" cols="30"></textarea>
+                
+                <br><br>
+                
+                <input type="checkbox" id="myCheckBox" name="myCheckBox">
+                <label for="myCheckBox">Acepto las condiciones de privacidad</label>  
+
+                <br>
+                <br>    
+
+                <hr>
+
+                <input type="submit" class="button" value="Enviar">
+
+            </form>
+        </section>
+
+    </main>
+    <footer>
+        <p>Nuestra ubicación:</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.428476712235!2d-3.6948599846440837!3d40.42151017936453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4229dd28bc4f6b%3A0x1b818ff2f527183b!2sThe%20Bridge%20%7C%20Digital%20Talent%20Accelerator!5e0!3m2!1ses!2ses!4v1639472874468!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </footer>
+    <br>
+    <div>
+        <a href="#top">Volver a arriba</a>
+    </div>
+</body>
+</html>
